@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conceptos CSS: coleres y fondos</title>
+    <style>
+        .caja{
+            color: azure;
+            padding: 10px;
+            border: 3px solid #00ff00;
+            border-radius: 8px;
+        }
+        .color-fondo{
+           background-color: #333333;
+        }
+        
+        header{/* selector por etiquetas*/
+            padding: 15px;/*la distancia entre el borde y el contenido*/
+            border: 2px solid #333333;/*tamaño del borde en px
+            tipo de borde (solid) color*/
+            border-radius: 8px;/*redondea los bordes*/
+        }
+        /*para seleccionar una clase se utiliza el. y
+        luego el nombre de la clase*/
+        .color-name{
+            color:orange
+        }
+        .color-hex{
+            color: #00ff00;/*rgb(00 - ff) por canal*/
+        }
+        .color-rgb{
+            color: rgb(255,0,0);
+        }
+        .color-rgba{
+            color: rgba(255,255,0,1);/*el ultimo canal es la transparencia. valor 0 (plena transparencia)*/
+            background-color: brown;
+        }
+        .imagen-fondo{
+            background-image: url("river.png");
+            background-size: cover;
+        }
+        /*Selector por descendencia.Elegir el PADRE utilizando en este caso el nombre de la clase aplicada*/
+        .imagen-fondo h2{
+            color: #ff0000;
+        }
+        .imagen-fondo p{
+            color:#000000
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ejemplo 1 : colores de texto</h1>
+        <p class="color-nombre">este texto usa la propiedad color</p>
+        <p class="color-hex">este texto usa codigo hexadecimal</p>
+        <p class="color-rgb">este texto usa valores RGB</p>
+        <p class="color-rgba">este texto usa valores RGBA para
+            añadir transparencia
+        </p>
+    </header>
+    <main>
+        <section class="caja color-fondo">
+            <h2>colores de fondo</h2>
+            <p>
+                contenedor con un color de fondo de tipo solido
+            </p>
+        </section>
+        <section class="caja imagen-fondo">
+            <h2>imagen de fondo</h2>
+            <p>
+                contenedor con una imagen de fondo.utilizaremos
+                la propiedad background-image.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
