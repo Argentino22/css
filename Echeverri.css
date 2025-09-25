@@ -1,0 +1,89 @@
+img {
+    border: 10px solid #870000;
+    border-radius: 250px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #00000000;
+    color: #9f0000;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #00051a;
+    color: #ff0000;
+
+}
+
+header {
+    border-bottom: 5px solid #ce2c2c;
+    text-align: center;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    border: 2px solid #ff0000;
+    border-radius: 4px;
+}
+
+main ul {
+    list-style: none;
+    border: 2px solid #870000;
+    border-radius: 5px;
+    background-color: #850000;
+    padding: 8px;
+}
+
+main ul li {
+    color: #ffffff;
+    border-bottom: 1px solid #ff0000;
+}
+
+main ul li span {
+    font-weight: 900;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000000;
+    color: #ff0000;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    width: 98%;
+    border: 2px solid #870000;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.contenedor-btn {
+    border-top: 5px dashed #ef5353;
+}
+
+.btn {
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #000000;
+    color: #ff0000;
+    padding: 8px;
+}
+
+#btn-contacto {
+    color: #ffffff;
+    background-color: #920000;
+}
+
+#btn-portafolio {
+    color: #ffffff;
+    background-color: #641717;
+}
