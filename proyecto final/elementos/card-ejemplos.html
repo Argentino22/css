@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            max-width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            /* adaptar la imagen al ANCHO del contenedor */
+        }
+
+        .card h5 {
+            margin: 5px 0px;
+            text-transform: uppercase;
+            /* cambiar mayus,minux */
+            letter-spacing: 2px;
+        }
+
+        .desc {
+            text-align: justify;
+            line-height: 1.6em;
+        }
+
+        .desc {
+            color: brown;
+            word-spacing: 5px;
+        }
+
+        .precio {
+            text-decoration: line-through;
+            color: #ccc;
+
+        }
+
+        .porcien {
+            color: brown;
+
+
+
+        }
+
+        .bo {
+            width: 100%;
+            border-radius: 5px;
+            color: rgb(254, 254, 254);
+            background-color: brown;
+            padding: 5px;
+            border: 1px solid transparent
+        }
+
+        .cuotas {
+            color: #a4a3a3;
+        }
+
+        .ps {
+            font-size: 0.7em;
+        }
+        .cora{
+            display:flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Maximiliano Salas</h1>
+        <section class="container">
+            <!--card-->
+            <div class="card">
+                <img src="salas.jpg" alt="">
+                <h5>Titulo de Producto</h5>
+                <p class="desc">Maximiliano Nahuel Salas es un futbolista argentino que se desempeña como delantero en
+                    el Club
+                    Atlético River Plate de la Primera División de Argentina. Debutó en 2016 con Club Atlético All Boys,
+                    en la Primera B Nacional de Argentina. </p>
+                <!--5 estrellas-->
+                <div>&#10025;&#10025;&#10025;&#10025;&#10025;</div>
+                <div class="cora">&#128151;</div>
+                <div class="desc">$511.999 <span class="precio">$853.332</span> <span class="porcien">-40%</span></div>
+                <div class="ps">Precio sin Impuestos Nacionales $423.140</div>
+                <div class="cuotas">6 sin interes de $85.334</div>
+                <button class="bo">COMPRAR</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
