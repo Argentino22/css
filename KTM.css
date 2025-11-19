@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(234, 234, 234)
+}
+
+header {
+    background-image: url(./assent/cross.webp);
+    background-position: center;
+    background-size: contain;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 2000px;
+    padding: 2em;
+}
+
+main {
+    background-color: rgb(0, 0, 82);
+    display: flex;
+    justify-content: space-around;
+    max-width: 2000px;
+    padding: 2em;
+    margin: auto;
+}
+
+h1 {
+    color: azure;
+    font-size: 5em;
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.778), 0 0 1em rgb(255, 0, 0), 0 0 0.5em rgb(255, 0, 0);
+
+}
+
+h2 {
+    color: azure;
+}
+
+p {
+    color: azure;
+}
+
+.boton {
+    background-color: rgb(5, 11, 182);
+    color: azure;
+    padding: 15px;
+    margin-top: auto;
+    border-radius: 5em;
+    width: 100%;
+
+}
+
+.sep {
+    display: flex;
+    flex-direction: column;
+    max-width: 20em;
+}
+
+footer {
+    background-color: rgb(0, 0, 82);
+    max-width: 2000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+
+}
+
+.cajas {
+    gap: 10px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
